@@ -8,7 +8,7 @@
 
 A production-style end-to-end test suite for [SauceDemo](https://www.saucedemo.com), built as a portfolio reference. Demonstrates the patterns I use day-to-day on a Playwright suite covering thousands of test cases at work.
 
-> **Why SauceDemo?** It's the community-standard practice site for end-to-end automation. Everyone has seen it, so they can read this code in 60 seconds and judge the shape of the work.
+> **Why SauceDemo?** It's the community-standard practice site for end-to-end automation.
 
 ---
 
@@ -112,7 +112,7 @@ Run on every push **across 3 desktop browsers + 1 mobile profile**.
 
 - **Maintainable architecture**: page objects keep tests readable; fixtures keep them DRY.
 - **Tester instinct, not just automation**: [`docs/BUGS-DISCOVERED.md`](docs/BUGS-DISCOVERED.md) treats SauceDemo's seeded defects as if they were real bugs and shows the report format I'd use in a real ticket.
-- **Production-style CI**: matrix-sharded across browsers, retries on flake, traces on failure, nightly cron — the exact shape of pipeline I run at work.
+- **Production-style CI**: matrix-sharded across browsers, retries on flake, traces on failure, nightly cron — some samples of the pipeline I run at work.
 - **Clear separation of smoke vs regression**: critical tests run on every push; broader coverage runs nightly.
 
 ---
