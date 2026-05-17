@@ -6,9 +6,9 @@
 ![Node](https://img.shields.io/badge/Node-20.x-339933?logo=nodedotjs&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A production-style end-to-end test suite for [SauceDemo](https://www.saucedemo.com), built as a portfolio reference for QA Lead / SDET work. Demonstrates the patterns I use day-to-day on a Playwright suite covering thousands of test cases at [Wilson Works Trading Inc.](https://wilsonworksph.com)
+A production-style end-to-end test suite for [SauceDemo](https://www.saucedemo.com), built as a portfolio reference. Demonstrates the patterns I use day-to-day on a Playwright suite covering thousands of test cases at work.
 
-> **Why SauceDemo?** It's the community-standard practice site for end-to-end automation. Every QA hiring manager has seen it, so they can read this code in 60 seconds and judge the shape of the work.
+> **Why SauceDemo?** It's the community-standard practice site for end-to-end automation. Everyone has seen it, so they can read this code in 60 seconds and judge the shape of the work.
 
 ---
 
